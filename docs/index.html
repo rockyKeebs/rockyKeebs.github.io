@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Rocky Keebs Docs</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <style>
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <style>
     :root {
       --base-background-color: #f6f6f6;
       --theme-color : #5c848b;
@@ -31,6 +33,8 @@
       --heading-h2-border-style : ;
       --heading-h2-font-weight : 700;
       --notice-font-weight : 700;
+      --cover-color : var(--sidebar-background);
+      --cover-background-mask-opacity : 0;
 
       --zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
     }
@@ -45,7 +49,8 @@
       loadSidebar: true,
       loadNavbar: true,
       coverpage: true,
-      subMaxLevel: 1
+      subMaxLevel: 1,
+      mergeNavbar: true
     }
   </script>
   
