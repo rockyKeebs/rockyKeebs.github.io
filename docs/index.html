@@ -1,23 +1,51 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@5/themes/vue.css"
-    />
-  </head>
-  <body>
-    <div id="app"></div>
-    <script>
-      window.$docsify = {
-        //...
-      };
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify@5"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <style>
+    :root {
+      --base-background-color: #f6f6f6;
+      --theme-color : #5c848b;
+      --cover-background-color : var(--base-background-color);
+      --cover-heading-color : var(--theme-color);
+      --heading-font-family : 'Roboto Mono', monospace;
+      --cover-heading-font-weight : bold;
+      --base-font-family : 'Montserrat', sans-serif;
+      --base-font-weight : 500;
+      --base-color : var(--theme-color);
+      --heading-color : var(--theme-color);
+      --heading-h1-font-weight : 700;
+      --sidebar-background : #f3f3f3;
+      --sidebar-border-width : 0;
+      --sidebar-toggle-background : var(--sidebar-background);
+      --sidebar-name-font-family : 'Roboto Mono', monospace;
+      --sidebar-name-font-weight : bold;
+      --sidebar-nav-strong-font-weight : 500;
+      --sidebar-nav-link-font-weight : 500;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Please wait...</div>
+  <script>
+    window.$docsify = {
+      name: 'Rocky Keebs Docs',
+      repo: '',
+      loadSidebar: true,
+      loadNavbar: true,
+      coverpage: true,
+      onlyCover: true
+    }
+  </script>
+  
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- docsify-themeable -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+</body>
 </html>
