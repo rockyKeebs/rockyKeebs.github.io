@@ -158,7 +158,7 @@ It's time to test the PCB to make sure each key works. Plug in your PCB and open
 
 ![screenshot of the matrix test ui from VIA](https://cdn.shopify.com/s/files/1/0562/3460/6759/files/via_test_matrix.png?v=1622963243)
 
-The gray keys should all turn pink. If they don't, pause here and [support@rockykeebs.com](mailto:support@rockykeebs.com). If they do, feel free to continue.
+The gray keys should all turn pink. If they don't, pause here and email [support@rockykeebs.com](mailto:support@rockykeebs.com). If they do, feel free to continue.
 
 # Soldering Mill-Max Sockets (Optional)
 
