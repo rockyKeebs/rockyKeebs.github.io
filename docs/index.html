@@ -27,6 +27,13 @@
       --sidebar-name-font-weight : bold;
       --sidebar-nav-strong-font-weight : 500;
       --sidebar-nav-link-font-weight : 500;
+      --heading-h1-font-family : 'Roboto Mono', monospace;
+      --heading-h2-border-style : ;
+      --heading-h2-font-weight : 700;
+      --notice-font-weight : 700;
+      
+
+
     }
   </style>
 </head>
@@ -39,13 +46,15 @@
       loadSidebar: true,
       loadNavbar: true,
       coverpage: true,
-      onlyCover: true
+      onlyCover: true,
+      subMaxLevel: 1
     }
   </script>
   
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- docsify-themeable -->
-<script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 </body>
 </html>

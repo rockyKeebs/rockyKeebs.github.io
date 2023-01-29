@@ -1,2 +1,1 @@
-* [Home](/ "Home")
-* [Guide](guide.md "testtest")
+* [Rocky Elbert](rocky-elbert.md "Rocky Elbert Build Guide")
